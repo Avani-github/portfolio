@@ -34,7 +34,7 @@
       document.getElementById("errorSubject").innerHTML = "Subject is required";
       isValid = false;
     } else if (subjectInput.value.length < 10) {
-      document.getElementById("errorSubject").innerHTML = "Subject should have at least 3 characters";
+      document.getElementById("errorSubject").innerHTML = "Subject should have at least 10 characters";
       isValid = false;
     } else {
       document.getElementById("errorSubject").innerHTML = "";
@@ -45,7 +45,7 @@
       document.getElementById("errorMessage").innerHTML = "Message is required";
       isValid = false;
     } else if (messageInput.value.length < 20) {
-      document.getElementById("errorMessage").innerHTML = "Message should have at least 10 characters";
+      document.getElementById("errorMessage").innerHTML = "Message should have at least 20 characters";
       isValid = false;
     } else {
       document.getElementById("errorMessage").innerHTML = "";
